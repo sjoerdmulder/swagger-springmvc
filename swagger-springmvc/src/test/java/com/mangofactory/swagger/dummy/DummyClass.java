@@ -1,9 +1,9 @@
 package com.mangofactory.swagger.dummy;
 
 import com.mangofactory.swagger.annotations.ApiIgnore;
+
 import com.mangofactory.swagger.dummy.models.Example;
 import com.wordnik.swagger.annotations.*;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import java.util.Date;
 
-import static com.mangofactory.swagger.dummy.DummyModels.Ignorable;
+import static com.mangofactory.swagger.dummy.DummyModels.*;
 
 public class DummyClass {
    public void dummyMethod() {
